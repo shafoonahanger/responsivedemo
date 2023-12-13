@@ -19,6 +19,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
   await initFirebase();
+  print("this is a custom code injected manually");
 
   await FlutterFlowTheme.initialize();
 
